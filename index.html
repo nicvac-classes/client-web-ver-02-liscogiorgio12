@@ -4,11 +4,77 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Client Web</title>
-    <!-- Inserire qui il codice per caricare i css di w3.css! --> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
             
   </head>
   <body>
-    <!-- Inserire qui il codice per definire il form -->
+    <div class="w3-card-4">
+      <div class="w3-container w3-green">
+        <h2>Registrazione evento</h2>
+      </div>
+    <label>Cognome</label>
+<input class="w3-input w3-border" type="text" name="cognome">
+<label>Nome</label>
+<input class="w3-input w3-border" type="text" name="nome">
+<label>Età</label>
+<input class="w3-input" type="number" name="eta">
+<label>Data dell'evento</label>
+<input class="w3-input" type="date" name="dataNascita">
+<label>Password Evento</label>
+<input class="w3-input w3-border" type="password" name="pwd">
+<form class="w3-container w3-card-4">
+  <h2>Ordinazione</h2>
+  <p>
+  <input class="w3-check" type="checkbox" name="ordine1" value="latte" checked="checked">
+  <label>Latte</label></p>
+  <p>
+  <input class="w3-check" type="checkbox" name="ordine2" value="zucchero" >
+  <label>Zucchero</label></p>
+  <p>
+  <input class="w3-check" type="checkbox" name="ordine3" value="limone" disabled >
+  <label>Limone</label></p>
+  <form class="w3-container w3-card-4">
+    <h2>Gadget da prenotare per l'evento</h2>
+    <p>
+    <input class="w3-radio" type="radio" name="taglia" value="S">
+    <label>sciarpa</label></p>
+    <p>
+    <input class="w3-radio" type="radio" name="taglia" value="M" checked>
+    <label>cappellino</label></p>
+    <p>
+    <input class="w3-radio" type="radio" name="taglia" value="L">
+    <label>fischietto</label></p>
+    <p>
+      <form class="w3-container w3-card-4">
+        <h2>Che settore vuoi prenotare?</h2>
+        <p>
+        <input class="w3-radio" type="radio" name="taglia" value="o">
+        <label>ovest</label></p>
+        <p>
+        <input class="w3-radio" type="radio" name="taglia" value="n" checked>
+        <label>nord</label></p>
+        <p>
+        <input class="w3-radio" type="radio" name="taglia" value="s">
+        <label>sud</label></p>
+        <p>
+          <form class="w3-container w3-card-4">
+            <h1>Taglia maglia prenotata</h1>
+          
+            <select class="w3-select" name="taglia">
+              <option value="" disabled selected>Scegli la taglia</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+            </select>
+            <p>
+          </form>
+      </form>
+  </form>
+</form>
+<form class="w3-container">
+      </form>
+    </div>
          
   </body>
 </html>
